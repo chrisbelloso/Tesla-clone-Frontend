@@ -1,35 +1,25 @@
-.NavTitle a {
-  color: rgb(132, 0, 255);
-  text-decoration: none;
+.navbar > .container {
+  display: flex !important;
+  justify-content: center !important;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.navbar-light .navbar-brand {
   font-size: 30px;
-  font-weight: bold;
-}
-
-#offcanvasNavbarLabel {
-  font-weight: bold;
-  font-size: 25px;
-}
-
-.offcanvas-header {
-  background-color: rgb(37, 37, 37);
-  color: white;
-}
-
-.list a {
-  color: rgb(132, 0, 255);
-  text-decoration: none;
-  font-size: 23px;
-  font-weight: bold;
+  color: red !important;
 }
 
 .navbar-light .navbar-toggler-icon {
-  background-image: url(https://cdn.pixabay.com/photo/2018/04/23/15/35/settings-3344607_960_720.png) !important;
+  background-image: url(https://cdn0.iconfinder.com/data/icons/user-interface-150/24/List_menu_toggle-512.png) !important;
+  font-size: 28px;
 }
 
 .navbar-light .navbar-toggler {
   border: none;
 }
 
-.btn-close {
-  background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Grey_close_x.svg/1024px-Grey_close_x.svg.png) !important;
+.nav-link {
+  display: flex !important;
+  justify-content: center !important;
 }
